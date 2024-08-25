@@ -1,0 +1,393 @@
+CRITICAL - 2023-12-31 00:01:21 --> Undefined offset: 13
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\tabelmasalah.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('tabelmasalah', Array, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Laporan.php(60): view('tabelmasalah', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Laporan->tabelmasalah()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-31 00:01:49 --> Undefined offset: 13
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\tabelmasalah.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('tabelmasalah', Array, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Laporan.php(60): view('tabelmasalah', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Laporan->tabelmasalah()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-31 00:05:59 --> Undefined offset: 13
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\tabelmasalah.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 145, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('tabelmasalah', Array, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Laporan.php(60): view('tabelmasalah', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Laporan->tabelmasalah()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-31 00:12:33 --> Undefined offset: 13
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\tabelmasalah.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('tabelmasalah', Array, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Laporan.php(60): view('tabelmasalah', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Laporan->tabelmasalah()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-31 00:14:56 --> Undefined offset: 12
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\tabelmasalah.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('tabelmasalah', Array, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Laporan.php(60): view('tabelmasalah', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Laporan->tabelmasalah()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-31 00:23:50 --> Undefined variable: totalMasalahList
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\tabelmasalah.php(194): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 194, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('tabelmasalah', Array, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Laporan.php(60): view('tabelmasalah', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Laporan->tabelmasalah()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-31 00:24:58 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('tabelmasalah', Array, true)
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Laporan.php(60): view('tabelmasalah', Array)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Laporan->tabelmasalah()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-12-31 03:51:09 --> Trying to get property 'user_name' of non-object
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\template\navbar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(424): CodeIgniter\View\View->render('template/navbar', NULL, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\template\headerforcontent.php(49): CodeIgniter\View\View->include('template/navbar')
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(424): CodeIgniter\View\View->render('template/header...', NULL, true)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\tabelmasalah.php(1): CodeIgniter\View\View->include('template/header...')
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('tabelmasalah', Array, true)
+#12 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Laporan.php(60): view('tabelmasalah', Array)
+#13 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Laporan->tabelmasalah()
+#14 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#15 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2023-12-31 03:59:16 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 04:12:04 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Filters\AuthFilter.php(28): session()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#11 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-12-31 04:12:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Config\Events.php:32) in C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-31 04:18:50 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Filters\AuthFilter.php(28): session()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#11 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-12-31 04:18:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Config\Events.php:32) in C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-31 04:39:20 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Filters\AuthFilter.php(28): session()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#11 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-12-31 04:39:20 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Config\Events.php:32) in C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-31 04:52:24 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:52:43 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:53:04 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:55:50 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:55:51 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:55:52 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:55:53 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:55:53 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:55:53 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:55:53 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:56:00 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:57:41 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:57:42 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 05:57:43 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 06:02:17 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 07:56:11 --> Call to undefined method App\Controllers\PrintTabelNG::findAll()
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 08:02:08 --> Class 'App\Models\PrintTabelNGModel' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 08:02:48 --> Class 'App\Models\Models\PrintTabelNGModel' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 08:02:49 --> Class 'App\Models\Models\PrintTabelNGModel' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporan()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 11:55:31 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporanPDF()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 11:56:48 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporanPDF()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 11:56:51 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporanPDF()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 11:56:58 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporanPDF()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-31 12:05:33 --> Undefined index: no
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\PrintTabelNG.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporanPDF()
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-12-31 12:06:41 --> Undefined index: id_barang
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\PrintTabelNG.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporanPDF()
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-12-31 12:20:05 --> Undefined variable: monthNames
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\PrintTabelNG.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporanPDF()
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-12-31 12:22:07 --> Undefined variable: db
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\PrintTabelNG.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporanPDF()
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-12-31 12:23:12 --> Undefined variable: sebelumTanggal
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\PrintTabelNG.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporanPDF()
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-12-31 12:34:24 --> Call to undefined method App\Models\PrintTabelNGModel::getDataByMasalah
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\PrintTabelNG.php(98): CodeIgniter\Model->__call('getDataByMasala...', Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\PrintTabelNG->PrintLaporanPDF()
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintTabelNG))
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

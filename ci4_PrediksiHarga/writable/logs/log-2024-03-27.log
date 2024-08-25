@@ -1,0 +1,36 @@
+CRITICAL - 2024-03-27 09:31:02 --> Undefined variable: b
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\datasetmold.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Common.php(1089): CodeIgniter\View\View->render('datasetmold', Array, true)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(17): view('datasetmold', Array)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->index()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-03-27 09:32:23 --> Undefined index: price-mold
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\datasetmold.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Common.php(1089): CodeIgniter\View\View->render('datasetmold', Array, true)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(17): view('datasetmold', Array)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->index()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-03-27 09:34:10 --> Illegal string offset 'price-mold'
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\datasetmold.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Common.php(1089): CodeIgniter\View\View->render('datasetmold', Array, true)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(17): view('datasetmold', Array)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->index()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

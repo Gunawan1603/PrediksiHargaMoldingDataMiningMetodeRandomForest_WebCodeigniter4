@@ -1,0 +1,217 @@
+CRITICAL - 2024-04-06 17:39:02 --> Undefined variable: title
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\datasetmold.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Common.php(1089): CodeIgniter\View\View->render('datasetmold', Array, true)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(234): view('datasetmold', Array)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->importCsv()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-04-06 17:41:00 --> Undefined variable: title
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\datasetmold.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Common.php(1089): CodeIgniter\View\View->render('datasetmold', Array, true)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(240): view('datasetmold', Array)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->importCsv()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-04-06 17:41:07 --> Undefined variable: title
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\datasetmold.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Common.php(1089): CodeIgniter\View\View->render('datasetmold', Array, true)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(240): view('datasetmold', Array)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->importCsv()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-04-06 17:46:01 --> Undefined variable: title
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\datasetmold.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Common.php(1089): CodeIgniter\View\View->render('datasetmold', Array, true)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(238): view('datasetmold', Array)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->importCsv()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-04-06 17:50:57 --> Undefined variable: title
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\datasetmold.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Common.php(1089): CodeIgniter\View\View->render('datasetmold', Array, true)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(238): view('datasetmold', Array)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->importCsv()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-04-06 17:53:01 --> compact(): Undefined variable: insert_csv
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 236, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(236): compact('insert_csv', 'title', 'link')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->importCsv()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-04-06 18:35:47 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\BaseModel.php(814): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(242): CodeIgniter\BaseModel->insertBatch(Array)
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-04-06 18:40:32 --> Undefined index: file
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-06 18:41:43 --> Undefined index: file
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-06 18:44:06 --> syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('dataset')
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('dataset')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-06 18:44:11 --> syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('dataset/insert_...')
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('dataset/insert_...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-06 18:45:27 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\BaseModel.php(814): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(249): CodeIgniter\BaseModel->insertBatch(Array)
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-04-06 18:45:53 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\BaseModel.php(814): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(249): CodeIgniter\BaseModel->insertBatch(Array)
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-04-06 18:47:36 --> Undefined index: file
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-06 18:47:47 --> Undefined index: file
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-06 18:47:52 --> Undefined index: file
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-06 18:47:59 --> Undefined index: file
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-06 18:52:54 --> Undefined index: file
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-06 19:04:45 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\BaseModel.php(814): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(249): CodeIgniter\BaseModel->insertBatch(Array)
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-04-06 19:13:55 --> Undefined offset: 1
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 235, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-06 19:14:53 --> Undefined offset: 1
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 235, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-06 19:15:45 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\BaseModel.php(814): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(260): CodeIgniter\BaseModel->insertBatch(Array)
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-04-06 19:16:04 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\BaseModel.php(814): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\DataSet.php(260): CodeIgniter\BaseModel->insertBatch(Array)
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Dataset->insert_csv()
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

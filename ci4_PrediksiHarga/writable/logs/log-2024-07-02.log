@@ -1,0 +1,48 @@
+CRITICAL - 2024-07-02 10:06:06 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\results_viewuser.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Common.php(1089): CodeIgniter\View\View->render('results_viewuse...', Array, true)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\SplitdatasetUser.php(153): view('results_viewuse...', Array)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\SplitdatasetUser->showResults()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SplitdatasetUser))
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-07-02 10:45:37 --> Undefined index: 
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\PrediksiPrice.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\PrediksiPrice.php(39): App\Controllers\PrediksiPrice->encode_value(NULL, Array)
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\PrediksiPrice->proses_prediksiharga()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrediksiPrice))
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-07-02 10:50:39 --> Undefined index: 
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\PrediksiPrice.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\PrediksiPrice.php(39): App\Controllers\PrediksiPrice->encode_value(NULL, Array)
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\PrediksiPrice->proses_prediksiharga()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrediksiPrice))
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-07-02 10:52:18 --> Undefined index: 
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\PrediksiPriceUser.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\PrediksiPriceUser.php(39): App\Controllers\PrediksiPriceUser->encode_value(NULL, Array)
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\PrediksiPriceUser->proses_prediksiharga()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrediksiPriceUser))
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-07-02 11:06:59 --> Undefined index: 
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\PrediksiPriceUser.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\PrediksiPriceUser.php(39): App\Controllers\PrediksiPriceUser->encode_value(NULL, Array)
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\PrediksiPriceUser->proses_prediksiharga()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrediksiPriceUser))
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

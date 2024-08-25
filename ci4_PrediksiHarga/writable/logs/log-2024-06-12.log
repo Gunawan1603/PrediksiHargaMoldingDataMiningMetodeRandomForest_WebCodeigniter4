@@ -1,0 +1,103 @@
+CRITICAL - 2024-06-12 07:49:42 --> Trying to get property 'user_name' of non-object
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\template\navbar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(424): CodeIgniter\View\View->render('template/navbar', NULL, true)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\template\headerforcontent.php(50): CodeIgniter\View\View->include('template/navbar')
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(424): CodeIgniter\View\View->render('template/header...', NULL, true)
+#8 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\login.php(1): CodeIgniter\View\View->include('template/header...')
+#9 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#12 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Login.php(14): view('login')
+#13 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#14 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#15 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2024-06-12 11:35:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Splitdataset.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->performace()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-06-12 11:45:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Splitdataset.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->performace()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-06-12 11:46:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Splitdataset.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->performace()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-06-12 11:52:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Splitdataset.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->performace()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-06-12 11:55:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Splitdataset.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->performace()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-06-12 11:59:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Splitdataset.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->performace()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-06-12 12:03:56 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-06-12 12:05:25 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-06-12 12:08:07 --> Call to undefined method App\Controllers\Splitdataset::main()
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->performace()
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-06-12 12:09:46 --> Undefined index: accuracy
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Splitdataset.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->performace()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-06-12 12:25:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Splitdataset.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->performace()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-06-12 12:38:41 --> App\Controllers\PrediksiPrice::exportToExcel(): Failed opening required 'C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Classes/PHPExcel.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-06-12 12:39:23 --> App\Controllers\PrediksiPrice::exportToExcel(): Failed opening required 'C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Classes/PHPExcel.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

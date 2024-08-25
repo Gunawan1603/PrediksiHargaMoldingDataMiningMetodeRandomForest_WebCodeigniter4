@@ -1,0 +1,453 @@
+CRITICAL - 2024-01-24 08:04:56 --> Undefined index: user_role
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Login->authenticate()
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-01-24 08:22:02 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:22:09 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:25:25 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:25:42 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:27:49 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:29:20 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:29:38 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:29:39 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:29:40 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:29:41 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:29:41 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:29:44 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:29:44 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:30:01 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:30:28 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:34:02 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:34:04 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:34:05 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:34:06 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:34:13 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:34:57 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:34:59 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:34:59 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:35:37 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:35:38 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:35:38 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:35:39 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:35:39 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:35:39 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:35:50 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:41:57 --> Invalid file: admin/dashboardadmin.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard...', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Admin\Dashboard.php(11): view('admin/dashboard...')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:46:06 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:49:07 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:49:31 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:49:34 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:51:01 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:59:18 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 08:59:20 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 09:04:51 --> Invalid file: user/dashboard.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard....')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\User\Dashboard.php(11): view('user/dashboard')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\User\Dashboard->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-01-24 09:11:26 --> Invalid file: template/headerforcontentuser
+.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header...')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(424): CodeIgniter\View\View->render('template/header...', NULL, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Views\user\dashboard.php(1): CodeIgniter\View\View->include('template/header...')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\User\Dashboard.php(11): view('user/dashboard')
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\User\Dashboard->index()
+#8 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#9 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-24 09:16:29 --> Invalid file: template/headerforcontentuser
+.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header...')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(424): CodeIgniter\View\View->render('template/header...', NULL, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Views\user\dashboard.php(1): CodeIgniter\View\View->include('template/header...')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\User\Dashboard.php(11): view('user/dashboard')
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\User\Dashboard->index()
+#8 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#9 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-24 09:16:49 --> Invalid file: template/headerforcontentuser
+.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header...')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(424): CodeIgniter\View\View->render('template/header...', NULL, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Views\user\dashboard.php(1): CodeIgniter\View\View->include('template/header...')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\User\Dashboard.php(11): view('user/dashboard')
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\User\Dashboard->index()
+#8 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#9 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-24 09:42:20 --> Invalid file: user/login.php
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/login.php')
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('user/login', Array, true)
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\User\Login.php(14): view('user/login')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\User\Login->index()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Login))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

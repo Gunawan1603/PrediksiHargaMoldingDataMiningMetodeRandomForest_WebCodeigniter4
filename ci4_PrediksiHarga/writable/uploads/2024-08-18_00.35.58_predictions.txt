@@ -1,0 +1,21 @@
+Confusion Matrix:
+[[34 16]
+ [ 9 22]]
+Remark Prediction: Murah
+Price Prediction: Rp. 248,928,255 ,-
+Accuracy: 69.14%
+Classification Report:
+              precision    recall  f1-score   support
+
+       Mahal       0.79      0.68      0.73        50
+       Murah       0.58      0.71      0.64        31
+
+    accuracy                           0.69        81
+   macro avg       0.68      0.69      0.68        81
+weighted avg       0.71      0.69      0.70        81
+
+MAE Price: Rp. 72,662,565 ,-
+MAPE Price: 21.43%
+Total nodes in RandomForestClassifier: 40262
+Total nodes in RandomForestRegressor: 67440
+Confusion Matrix: [[34 16]

@@ -1,0 +1,62 @@
+CRITICAL - 2024-01-29 07:21:58 --> Trying to get property 'user_name' of non-object
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Views\template\navbar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(424): CodeIgniter\View\View->render('template/navbar', NULL, true)
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Views\template\headerforcontent.php(50): CodeIgniter\View\View->include('template/navbar')
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(424): CodeIgniter\View\View->render('template/header...', NULL, true)
+#8 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Views\dataprodukng.php(1): CodeIgniter\View\View->include('template/header...')
+#9 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Common.php(1089): CodeIgniter\View\View->render('dataprodukng', Array, true)
+#12 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\NGProduk.php(37): view('dataprodukng', Array)
+#13 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\NGProduk->index()
+#14 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#15 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2024-01-29 08:01:06 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-01-29 08:10:30 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-01-29 08:11:18 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-01-29 08:12:58 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-01-29 08:13:41 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-01-29 08:14:01 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

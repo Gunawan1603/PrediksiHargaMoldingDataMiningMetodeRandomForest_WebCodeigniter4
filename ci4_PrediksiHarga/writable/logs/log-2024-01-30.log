@@ -1,0 +1,22 @@
+ERROR - 2024-01-30 07:59:02 --> Table 'si_defectcamai.users' doesn't exist in engine
+CRITICAL - 2024-01-30 07:59:02 --> Table 'si_defectcamai.users' doesn't exist in engine
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Login.php(25): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Login->authenticate()
+#8 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-30 09:02:00 --> Call to a member function getErrorString() on null
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

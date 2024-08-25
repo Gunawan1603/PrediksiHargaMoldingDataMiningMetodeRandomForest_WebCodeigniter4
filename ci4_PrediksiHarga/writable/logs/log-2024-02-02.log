@@ -1,0 +1,10 @@
+CRITICAL - 2024-02-02 08:19:20 --> getimagesizefromstring(): Read error!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'getimagesizefro...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(30): getimagesizefromstring('')
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(16): App\Controllers\Camera->saveImage('')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Camera->capture()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Camera))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

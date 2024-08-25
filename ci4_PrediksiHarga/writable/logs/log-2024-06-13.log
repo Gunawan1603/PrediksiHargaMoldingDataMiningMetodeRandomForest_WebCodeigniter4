@@ -1,0 +1,121 @@
+CRITICAL - 2024-06-13 08:07:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Splitdataset.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->performace()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-06-13 08:41:26 --> Exception in performace method: Trying to access array offset on value of type null
+ERROR - 2024-06-13 08:42:20 --> Exception in performace method: Trying to access array offset on value of type null
+ERROR - 2024-06-13 08:47:21 --> No output from Python script
+ERROR - 2024-06-13 08:59:44 --> No output from Python script
+ERROR - 2024-06-13 09:15:45 --> Failed to decode JSON output from Python script
+ERROR - 2024-06-13 09:18:33 --> Failed to decode JSON output from Python script. Output: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+
+ERROR - 2024-06-13 09:19:55 --> Failed to decode JSON output from Python script. Output: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+
+ERROR - 2024-06-13 09:23:02 --> Failed to decode JSON output from Python script. Output: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+
+ERROR - 2024-06-13 09:24:21 --> Failed to decode JSON output from Python script. Output: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Python\performace.py", line 12, in <module>
+    logging.basicConfig(filename='/path/to/your/logs/performance.log', level=logging.INFO)
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 2040, in basicConfig
+    h = FileHandler(filename, mode,
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1169, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1201, in _open
+    return open_func(self.baseFilename, self.mode,
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\path\\to\\your\\logs\\performance.log'
+
+ERROR - 2024-06-13 09:27:45 --> Failed to decode JSON output from Python script. Output: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Python\performace.py", line 12, in <module>
+    logging.basicConfig(filename='/path/to/your/logs/performance.log', level=logging.INFO)
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 2040, in basicConfig
+    h = FileHandler(filename, mode,
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1169, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1201, in _open
+    return open_func(self.baseFilename, self.mode,
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\path\\to\\your\\logs\\performance.log'
+
+ERROR - 2024-06-13 09:29:45 --> Failed to decode JSON output from Python script. Output: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Python\performace.py", line 12, in <module>
+    logging.basicConfig(filename='/path/to/your/logs/performance.log', level=logging.INFO)
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 2040, in basicConfig
+    h = FileHandler(filename, mode,
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1169, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1201, in _open
+    return open_func(self.baseFilename, self.mode,
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\path\\to\\your\\logs\\performance.log'
+
+ERROR - 2024-06-13 09:35:12 --> Failed to decode JSON output from Python script. Output: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+
+ERROR - 2024-06-13 09:35:49 --> Failed to decode JSON output from Python script. Output: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Python\performace.py", line 12, in <module>
+    logging.basicConfig(filename='/path/to/your/logs/performance.log', level=logging.INFO)
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 2040, in basicConfig
+    h = FileHandler(filename, mode,
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1169, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1201, in _open
+    return open_func(self.baseFilename, self.mode,
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\path\\to\\your\\logs\\performance.log'
+
+ERROR - 2024-06-13 09:37:06 --> Failed to decode JSON output from Python script. Output: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Python\performace.py", line 12, in <module>
+    logging.basicConfig(filename='/path/to/your/logs/performance.log', level=logging.INFO)
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 2040, in basicConfig
+    h = FileHandler(filename, mode,
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1169, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "C:\Users\gunaw\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1201, in _open
+    return open_func(self.baseFilename, self.mode,
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\path\\to\\your\\logs\\performance.log'
+
+ERROR - 2024-06-13 09:38:47 --> Failed to decode JSON output from Python script. Error: Syntax error
+ERROR - 2024-06-13 09:41:02 --> Failed to decode JSON output from Python script. Error: Syntax error
+ERROR - 2024-06-13 10:21:11 --> Failed to decode JSON output from Python script. Error: Syntax error
+CRITICAL - 2024-06-13 10:33:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Splitdataset.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->performace()
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-06-13 10:43:33 --> Failed to decode JSON output from Python script. Error: Syntax error
+ERROR - 2024-06-13 10:45:42 --> Failed to decode JSON output from Python script. Error: Syntax error
+CRITICAL - 2024-06-13 17:20:57 --> Trying to get property 'user_name' of non-object
+#0 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\template\navbar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(424): CodeIgniter\View\View->render('template/navbar', NULL, true)
+#4 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\template\headerforcontent.php(50): CodeIgniter\View\View->include('template/navbar')
+#5 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(424): CodeIgniter\View\View->render('template/header...', NULL, true)
+#8 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Views\splitdataset.php(1): CodeIgniter\View\View->include('template/header...')
+#9 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Common.php(1089): CodeIgniter\View\View->render('splitdataset', Array, true)
+#12 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\app\Controllers\Splitdataset.php(36): view('splitdataset', Array)
+#13 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(832): App\Controllers\Splitdataset->index()
+#14 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Splitdataset))
+#15 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\Lab28_SkripsiPrediksiHarga\ci4_SkripsiPrediksiHarga\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+ERROR - 2024-06-13 17:21:48 --> Failed to decode JSON output from Python script. Error: Syntax error
+ERROR - 2024-06-13 17:34:42 --> Failed to decode JSON output from Python script. Error: Syntax error
+ERROR - 2024-06-13 17:47:38 --> Failed to decode JSON output from Python script. Error: Syntax error
+ERROR - 2024-06-13 17:49:24 --> Failed to decode JSON output from Python script. Error: Syntax error
+ERROR - 2024-06-13 18:01:38 --> Performance calculation failed
+ERROR - 2024-06-13 18:02:22 --> Performance calculation failed
+ERROR - 2024-06-13 18:02:55 --> Performance calculation failed
+ERROR - 2024-06-13 18:08:44 --> Performance calculation failed
+ERROR - 2024-06-13 18:09:28 --> Performance calculation failed
+ERROR - 2024-06-13 18:14:45 --> Exception in performance method: array_combine(): Both parameters should have an equal number of elements
+ERROR - 2024-06-13 18:15:57 --> Exception in performance method: array_combine(): Both parameters should have an equal number of elements
+ERROR - 2024-06-13 18:16:01 --> Exception in performance method: array_combine(): Both parameters should have an equal number of elements

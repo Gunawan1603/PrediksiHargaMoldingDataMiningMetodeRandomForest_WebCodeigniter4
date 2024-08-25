@@ -1,0 +1,333 @@
+ERROR - 2023-12-10 04:03:04 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-12-10 04:03:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Login->authenticate()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-12-10 08:31:53 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2023-12-10 08:31:53 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `users` ...', 0)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Users.php(111): CodeIgniter\Model->update('12', Array)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Users->update('12')
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-12-10 08:51:20 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\BaseModel.php(963): CodeIgniter\Model->doDelete('0', false)
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Users.php(137): CodeIgniter\BaseModel->delete('0')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Users->delete('0')
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-12-10 08:54:22 --> Trying to get property 'user_name' of non-object
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\template\navbar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(424): CodeIgniter\View\View->render('template/navbar', NULL, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\template\headerforcontent.php(49): CodeIgniter\View\View->include('template/navbar')
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(424): CodeIgniter\View\View->render('template/header...', NULL, true)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\dashboard.php(1): CodeIgniter\View\View->include('template/header...')
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#12 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Dashboard.php(9): view('dashboard')
+#13 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#14 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#15 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2023-12-10 09:11:57 --> Invalid file: editproduk.php
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editproduk.php')
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('editproduk', Array, true)
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Produk.php(81): view('editproduk', Array)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Produk->edit('0')
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-12-10 09:12:49 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2023-12-10 09:12:49 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Models\ProdukModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Produk.php(54): App\Models\ProdukModel->add(Array)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Produk->save()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-12-10 09:17:34 --> Invalid file: editproduk.php
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editproduk.php')
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('editproduk', Array, true)
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Produk.php(81): view('editproduk', Array)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Produk->edit('1')
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-12-10 09:22:59 --> Undefined index: user_id
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\editproduk.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('editproduk', Array, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Produk.php(81): view('editproduk', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Produk->edit('1')
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-12-10 10:00:11 --> Table 'si_ngproduksi.ngproduk' doesn't exist
+CRITICAL - 2023-12-10 10:00:11 --> Table 'si_ngproduksi.ngproduk' doesn't exist
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->index()
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-10 10:10:29 --> compact(): Undefined variable: produkng
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(17): compact('produkng', 'title', 'link')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->index()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-12-10 10:11:21 --> compact(): Undefined variable: ngproduk
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(17): compact('ngproduk', 'title', 'link')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->index()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-12-10 10:14:49 --> compact(): Undefined variable: produkng
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(17): compact('produkng', 'title', 'link')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->index()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-12-10 10:15:05 --> Undefined variable: ngproduk
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\dataprodukng.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('dataprodukng', Array, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(17): view('dataprodukng', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->index()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-10 10:15:06 --> Undefined variable: ngproduk
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\dataprodukng.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('dataprodukng', Array, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(17): view('dataprodukng', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->index()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-10 10:15:45 --> compact(): Undefined variable: ngproduk
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(17): compact('ngproduk', 'title', 'link')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->index()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-12-10 10:31:06 --> Undefined property: App\Controllers\NGProduk::$ProdukModel
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-12-10 10:41:56 --> syntax error, unexpected ''bagian'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-12-10 10:45:09 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2023-12-10 10:45:09 --> Unknown column 'tanggal' in 'field list'
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ng...', 0)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ng...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ng...')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ng...', Array, false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Models\NGModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(58): App\Models\NGModel->add(Array)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-10 11:03:51 --> Unknown column 'kodeproduk' in 'field list'
+CRITICAL - 2023-12-10 11:03:51 --> Unknown column 'kodeproduk' in 'field list'
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ng...', 0)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ng...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ng...')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ng...', Array, false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Models\NGModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(58): App\Models\NGModel->add(Array)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-10 11:05:23 --> Unknown column 'kodeproduk' in 'field list'
+CRITICAL - 2023-12-10 11:05:23 --> Unknown column 'kodeproduk' in 'field list'
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ng...', 0)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ng...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ng...')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ng...', Array, false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Models\NGModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(58): App\Models\NGModel->add(Array)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-10 11:05:31 --> Unknown column 'kodeproduk' in 'field list'
+CRITICAL - 2023-12-10 11:05:31 --> Unknown column 'kodeproduk' in 'field list'
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ng...', 0)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ng...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ng...')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ng...', Array, false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Models\NGModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(58): App\Models\NGModel->add(Array)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-10 11:05:45 --> Unknown column 'kodeproduk' in 'field list'
+CRITICAL - 2023-12-10 11:05:45 --> Unknown column 'kodeproduk' in 'field list'
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ng...', 0)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ng...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ng...')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ng...', Array, false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Models\NGModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(58): App\Models\NGModel->add(Array)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-10 11:05:51 --> Unknown column 'kodeproduk' in 'field list'
+CRITICAL - 2023-12-10 11:05:51 --> Unknown column 'kodeproduk' in 'field list'
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ng...', 0)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ng...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ng...')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ng...', Array, false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Models\NGModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(58): App\Models\NGModel->add(Array)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-10 11:06:43 --> Unknown column 'kodeproduk' in 'field list'
+CRITICAL - 2023-12-10 11:06:43 --> Unknown column 'kodeproduk' in 'field list'
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ng...', 0)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ng...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ng...')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ng...', Array, false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Models\NGModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(58): App\Models\NGModel->add(Array)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-10 11:06:57 --> Unknown column 'noproduk' in 'field list'
+CRITICAL - 2023-12-10 11:06:57 --> Unknown column 'noproduk' in 'field list'
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ng...', 0)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ng...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ng...')
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ng...', Array, false)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Models\NGModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(58): App\Models\NGModel->add(Array)
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->save()
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-12-10 11:07:08 --> Undefined index: kodeproduk
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\dataprodukng.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('dataprodukng', Array, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\NGProduk.php(17): view('dataprodukng', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->index()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-10 11:09:03 --> Too few arguments to function App\Controllers\NGProduk::edit(), 0 passed in C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\NGProduk->edit()
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NGProduk))
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

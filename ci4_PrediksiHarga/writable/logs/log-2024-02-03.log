@@ -1,0 +1,68 @@
+CRITICAL - 2024-02-03 08:55:29 --> getimagesizefromstring(): Read error!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'getimagesizefro...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(31): getimagesizefromstring('')
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(16): App\Controllers\Camera->saveImage('')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Camera->capture()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Camera))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-03 09:25:36 --> getimagesizefromstring(): Read error!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'getimagesizefro...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(56): getimagesizefromstring('')
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(31): App\Controllers\Camera->saveImage('')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Camera->process()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Camera))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-03 09:28:56 --> getimagesizefromstring(): Read error!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'getimagesizefro...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(60): getimagesizefromstring('')
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(31): App\Controllers\Camera->saveImage('')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Camera->process()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Camera))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-03 09:29:15 --> getimagesizefromstring(): Read error!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'getimagesizefro...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(60): getimagesizefromstring('')
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(31): App\Controllers\Camera->saveImage('')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Camera->process()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Camera))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-03 09:36:45 --> getimagesizefromstring(): Read error!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'getimagesizefro...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(64): getimagesizefromstring('')
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(35): App\Controllers\Camera->saveImage('')
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Camera->process()
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Camera))
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-03 10:59:36 --> Undefined variable: imageName
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(23): App\Controllers\Camera->saveImage('data:image/jpeg...')
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Camera->process()
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Camera))
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-02-03 11:00:08 --> Undefined variable: imageName
+#0 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\app\Controllers\Camera.php(13): App\Controllers\Camera->saveImage('data:image/jpeg...')
+#2 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(832): App\Controllers\Camera->capture()
+#3 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Camera))
+#4 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab21_si_AI_Kamera\ci4_AICAM\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

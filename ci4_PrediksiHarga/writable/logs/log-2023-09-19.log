@@ -1,0 +1,66 @@
+ERROR - 2023-09-19 09:22:44 --> Table 'si_pyojoon.users' doesn't exist
+CRITICAL - 2023-09-19 09:22:44 --> Table 'si_pyojoon.users' doesn't exist
+#0 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Lab14_si_pjm\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#8 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Lab14_si_pjm\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-09-19 09:45:44 --> Table 'si_pyojoon.users' doesn't exist
+CRITICAL - 2023-09-19 09:45:44 --> Table 'si_pyojoon.users' doesn't exist
+#0 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Lab14_si_pjm\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#8 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Lab14_si_pjm\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-19 11:00:04 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Lab14_si_pjm\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2023-09-19 11:00:12 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Lab14_si_pjm\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2023-09-19 11:01:07 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Lab14_si_pjm\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2023-09-19 11:01:41 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Lab14_si_pjm\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2023-09-19 11:11:31 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Lab14_si_pjm\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2023-09-19 11:11:35 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Lab14_si_pjm\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\Lab14_si_pjm\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}

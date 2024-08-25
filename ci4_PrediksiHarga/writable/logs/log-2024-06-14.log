@@ -1,0 +1,5 @@
+ERROR - 2024-06-14 08:24:06 --> Exception in performance method: array_combine(): Both parameters should have an equal number of elements
+ERROR - 2024-06-14 08:25:30 --> Performance calculation failed
+ERROR - 2024-06-14 08:31:55 --> Performance calculation failed
+ERROR - 2024-06-14 08:35:29 --> Performance calculation failed
+ERROR - 2024-06-14 08:41:55 --> Performance calculation failed

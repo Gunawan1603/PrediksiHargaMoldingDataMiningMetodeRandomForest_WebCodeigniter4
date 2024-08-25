@@ -1,0 +1,12 @@
+CRITICAL - 2023-12-29 11:27:11 --> Undefined variable: filteredData
+#0 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Views\dataunpaid.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Common.php(1089): CodeIgniter\View\View->render('dataunpaid', Array, true)
+#4 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\app\Controllers\Laporan.php(14): view('dataunpaid', Array)
+#5 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(832): App\Controllers\Laporan->unpaid()
+#6 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab20_si_NGProduksi\ci4_ngproduksi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
